@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+/* border: 1px solid red; */
+}
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+width: 100%;
+/* height: 4000px; */
+overflow-x: hidden;
+}
+nav{
+  position: sticky;
+  top: 0;
+  /* z-index: 1; */
+}
+.logo{
+  width: 130px;
+}
+
+
+
+
+@media screen and (max-width:770px) {
+      .leftmain{
+          display: none;
+          position: absolute;
+          top: 130px;
+          left: 0;
+          z-index: 1;
+          /* position: fixed; */
+          
+
+
+      }
+      button{
+        font-size: 10px !important;
+      }
+
+}
+
+
+
+/* header style */
+header{
+  background-color:  rgb(35, 47, 62);
+}
+@media screen and (max-width:1028px){
+  header{
+      display: none;
+  }
+  
+ 
+}
+
+
+/* category button styling */
+
+.category-container button{
+  border-radius: 50%;
+  width: 20%;
+  border: none;
+  background-color: white;
+  
+}
+.category-container button img{
+  width: 100%;
+}
+
+
+
+
+/* shoes item style */
+
+.shoes-font{
+  font-size: 15px;
+}
+.shoes-color{
+  width: 30px; 
+  height: 30px;
+  
+  margin: 5px; 
+  border-radius: 50%;
+  border:1px solid gray;
+}
+.size{
+  margin: 5px; 
+  font-size: 13px;
+
+}
+.shoes-item-container img{
+ 
+  height: 200px;
+}
+
+
+/* leftmain checkbox styling start */
+.cart-length{
+  position: relative;
+  bottom: 10px;
+  right: 3px;
+}
+
+.page-details-icon{
+  font-size: 12px;
+  color: darkcyan;
+}
+
+.search_bar{
+height: 40px !important;
+}
